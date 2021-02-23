@@ -6,3 +6,5 @@
 后台首页 http://localhost/ht/public/admin.php
 后台分类   http://localhost/ht/public/admin.php/index/productcategory.html
 添加商品http://localhost/ht/public/admin.php/index/productadd.html
+数据库shop
+
