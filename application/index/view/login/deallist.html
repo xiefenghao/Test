@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	
+
+
+{if condition="count($data) == count($data, 1)"} {$data.num} //判断数组维度
+{else /} 
+<table>{volist name="data" id="data"}	
+		<tr>
+			<td><img src="/ht/public/{$data.image}" height="20px"></td>
+			<td>{$data.name}</td>
+			<td>{$data.total_amount}</td>
+			<td>{$data.num}</td>
+		<td>{if condition="($data.refund == 1)"}已退款 
+		<!--  //判断某个值是否为特定值
+ -->
+{else /} <a href="{:url('login/refund',array('trade_no'=>$data.trade_no,'price' =>$data.total_amount,'out_trade_no'=>$data.out_trade_no))}">退款</a></td>
+{/if}		
+		</tr>
+		<input type="hidden" name="" value="{$data.trade_no}">
+	</table>
+{/volist}	
+{/if}
+
+</body>
+</html>

@@ -1,0 +1,142 @@
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+ <link rel="stylesheet" href="__STATIC__/bf/css/bootstrap.min.css">  
+    <link rel="stylesheet" href="__STATIC__/jq/css/base.css">
+    <link rel="stylesheet" href="__STATIC__/jq/css/home.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+     
+  <script src="__STATIC__/bf/js/jquery-1.11.0.min.js"></script>
+   <script src="__STATIC__/bf/js/bootstrap.min.js"></script>
+ 
+
+
+    <script type="text/javascript" src="__STATIC__/jq/js/jquery.min.js"></script>
+    <script type="text/javascript">
+
+        $(function(){
+            $('.aui-content-main .aui-content-menu').hover(function(){
+
+                $(this).addClass('active').find('s').hide();
+
+                $(this).find('.aui-content-menu-dow').show();
+
+            },function(){
+
+                $(this).removeClass('active').find('s').show();
+
+                $(this).find('.aui-content-menu-dow').hide();
+
+            });
+
+        });
+
+    </script>
+
+</head>
+<body>
+
+    <!--------header strat----->
+
+  <!------header end------>
+    <!--------header strat----->
+
+  <!------header end------>
+    <!--------header strat----->
+
+  <!------header end------>
+    <!--------header strat----->
+
+  <!------header end------>
+    <!--------header strat----->
+
+  <!------header end------>
+    <!--------footer strat----->
+  <!------footer end------>
+  
+        <div class="container-fluid no-gutters">
+            <div class="row " >
+                <div class=" col-sm-10">
+                  <a href="">  风商城</a>
+                  <a href="" >登陆</a>
+                    <a href="" >免费注册</a>
+               </div>
+                                 
+               <div class="float-sm-left">
+                     <a href="{：url('party/')}" >修改密码</a>
+                    <a href="" >购物车</a>
+                    <a href="" >收藏夹</a>
+                    <a href="" >卖家中心</a>
+                    <a href="" >客服</a>
+                </div>
+            </div>
+        </div>
+   
+
+
+
+
+<div class="aui-container-bxo clearfix">
+    <div class="aui-content-sidebar clearfix" id="nav">
+        <div class="aui-content-main">
+            {volist name="type" id="vo"}
+            <div class="aui-content-menu">
+
+                <div class="aui-content-menu-head">
+                    <div class="aui-content-menu-head-list">
+
+                        <h2>{$vo.name}</h2>
+                        <a href="{:url('index/index/show2')}?id={$vo.id}">{$vo.name}</a>
+
+                        <i class="aui-content-menu-head-list-arrow"></i>
+                    </div>
+                </div>
+                <div class="aui-content-menu-dow aui-ds">
+                   {volist name="vo.child" id="vo2"}
+                   <dl>
+                    <dt>
+
+                        <span> {$vo2.name}</span>
+                    </dt>
+                    <dd>
+                      {volist name="vo2.child2" id="vo3"}
+
+                      <a href="{:url('index/index/show2')}?id={$vo3.id}" class="aui-a-curr">{$vo3.name}</a>
+                      {/volist}
+                  </dd>
+
+              </dl>
+              {/volist}
+
+
+
+
+          </div>
+      </div>{/volist}
+      
+
+  </div>
+</div>
+</div>
+<!-- 
+<div style="text-align:center;margin:50px 0; font:normal 14px/24px 'MicroSoft YaHei';">
+</div> -->
+</body>
+</html>
+
+
+
+

@@ -1,0 +1,7 @@
+{
+    "require": {
+        "monolog/monolog": "1.2.*",
+        "yansongda/pay": "1.0",
+        "topthink/think-captcha": "1.*"
+    }
+}

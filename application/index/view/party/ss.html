@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>登录 </title>
+  <link rel="stylesheet" type="text/css" href="__STATIC__/bst/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="__STATIC__/bst/dist/css/home.css">
+  <link rel="stylesheet" type="text/css" href="__STATIC__/bst/dist/css/base.css">
+  <script src="__STATIC__/bst/dist/js/bootstrap.min.js"></script>
+  <script src="__STATIC__/bst/dist/js/jquery-3.0.0.min.js"></script>
+ <script type="text/javascript" src="__STATIC__/jq/js/jquery.min.js"></script>
+
+<!-- bootstrap图标  <link rel="stylesheet" href="__STATIC__/bs/dist/css/font/css/all.css">
+    <link rel="stylesheet" href="__STATIC__/bs/dist/css/font/css/font-awesome.css"> -->
+
+ <style type="text/css">
+  a {text-decoration: none;
+        color:inherit;}
+</style>
+</head>
+
+
+<body>
+<div style="background-color:#BFBFBF">
+  <div class="container " >
+  
+        <a href="">  风商城</a>
+        {if session('userid')}
+
+{:session('name')}{else/}
+<a href="{:url('Party/login')}" method="post">登陆 /<a href="{:url('Party/regeist')}" method="post">注册 </a>
+{/if}
+
+      <div class=" float-right">
+        <a href="{:url('party/update')}" ></a>
+        <a href="" >购物车</a>
+        <a href="" >收藏夹</a>
+        <a href="" >卖家中心</a>
+        <a href="" >客服</a>  </div>
+      </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-6 offset-3">
+<div class="search">
+  <form action="#" method="post">
+
+   <input type="text" name="condition" placeholder="请输入搜索条件">
+   <input type="submit" class="btn btn-warning" value="搜索">
+  </form> 
+ </div>
+          
+</div></div>
+  </div>
+
+
+<div class="aui-container-bxo clearfix">
+    <div class="aui-content-sidebar clearfix" id="nav">
+        <div class="aui-content-main">
+            {volist name="type" id="vo"}
+            <div class="aui-content-menu">
+
+                <div class="aui-content-menu-head">
+                    <div class="aui-content-menu-head-list">
+
+                        <h2>{$vo.name}</h2>
+                        <a href="{:url('index/index/show2')}?id={$vo.id}">{$vo.name}</a>
+
+                        <i class="aui-content-menu-head-list-arrow"></i>
+                    </div>
+                </div>
+                <div class="aui-content-menu-dow aui-ds">
+                   {volist name="vo.child" id="vo2"}
+                   <dl>
+                    <dt>
+
+                        <span> {$vo2.name}</span>
+                    </dt>
+                    <dd>
+                      {volist name="vo2.child2" id="vo3"}
+
+                      <a href="{:url('index/index/show2')}?id={$vo3.id}" class="aui-a-curr">{$vo3.name}</a>
+                      {/volist}
+                  </dd>
+
+              </dl>
+              {/volist}
+
+
+
+
+          </div>
+      </div>{/volist}
+      
+
+  </div>
+</div>
+</div>
+</body>
+</html>

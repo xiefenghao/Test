@@ -1,0 +1,128 @@
+﻿
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+ 
+    <link rel="stylesheet" href="__STATIC__/jq/css/base.css">
+    <link rel="stylesheet" href="__STATIC__/jq/css/home.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="__STATIC__/bs/dist/css/bootstrap.min.css">  
+  <script src="__STATIC__/bs/dist/js/jquery-1.11.0.min.js"></script>
+   <script src="__STATIC__/bs/dist/js/bootstrap.min.js"></script>
+
+
+    <script type="text/javascript" src="__STATIC__/jq/js/jquery.min.js"></script>
+    <script type="text/javascript">
+
+        $(function(){
+            $('.aui-content-main .aui-content-menu').hover(function(){
+
+                $(this).addClass('active').find('s').hide();
+
+                $(this).find('.aui-content-menu-dow').show();
+
+            },function(){
+
+                $(this).removeClass('active').find('s').show();
+
+                $(this).find('.aui-content-menu-dow').hide();
+
+            });
+
+        });
+
+    </script>
+
+</head>
+<body>
+    <span class="glyphicon glyphicon-search"></span>
+<i class="fa fa-address-book" aria-hidden="true"></i>
+    <i class="fas fa-camera"></i>
+  <!--------header strat----->
+<i class="icon-camera"></i>
+<i class="icon-search icon-white"></i>
+  <!------header end------>
+    <!--------header strat----->
+
+  <!------header end------>
+    <!--------header strat----->
+
+  <!------header end------>
+    <!--------header strat----->
+
+  <!------header end------>
+    <!--------header strat----->
+
+  <!------header end------>
+    <!--------header strat----->
+
+  <!------header end------>
+    <!--------footer strat----->
+  <!------footer end------>
+<div class="container"></div>
+
+
+
+
+<div class="aui-container-bxo clearfix">
+    <div class="aui-content-sidebar clearfix" id="nav">
+        <div class="aui-content-main">
+            {volist name="type" id="vo"}
+            <div class="aui-content-menu">
+
+                <div class="aui-content-menu-head">
+                    <div class="aui-content-menu-head-list">
+
+                        <h2>{$vo.name}</h2>
+                        <a href="{:url('index/index/show2')}?id={$vo.id}">{$vo.name}</a>
+
+                        <i class="aui-content-menu-head-list-arrow"></i>
+                    </div>
+                </div>
+                <div class="aui-content-menu-dow aui-ds">
+                   {volist name="vo.child" id="vo2"}
+                   <dl>
+                    <dt>
+
+                        <span> {$vo2.name}</span>
+                    </dt>
+                    <dd>
+                      {volist name="vo2.child2" id="vo3"}
+
+                      <a href="{:url('index/index/show2')}?id={$vo3.id}" class="aui-a-curr">{$vo3.name}</a>
+                      {/volist}
+                  </dd>
+
+              </dl>
+              {/volist}
+
+
+
+
+          </div>
+      </div>{/volist}
+      
+
+  </div>
+</div>
+</div>
+<!-- 
+<div style="text-align:center;margin:50px 0; font:normal 14px/24px 'MicroSoft YaHei';">
+</div> -->
+</body>
+</html>
+
+
+
+
