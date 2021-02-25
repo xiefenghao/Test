@@ -1,0 +1,35 @@
+---------------------------------------------------------------
+[ 2021-01-26T22:12:31+08:00 ] 0.0.0.0 GET localhost/ht/public/admin.php/admin/login.html
+[运行时间：5.353514s] [吞吐率：0.19req/s] [内存消耗：2,067.97kb] [文件加载：49]
+[ info ] [ LANG ] E:\xamp\htdocs\ht\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'referer' => 'http://localhost/ht/public/admin.php/admin/out.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=5400513536; pgv_si=s5846208512; PHPSESSID=9cnt947buqlue9c8sbuesf9tgu; TY_SESSION_ID=e6c123d3-6b94-4e99-8d96-c0264a3fd1fb; Hm_lvt_6bcd52f51e9b3dce32bec4a3997715ac=1610283467; Hm_up_6bcd52f51e9b3dce32bec4a3997715ac=%7B%22islogin%22%3A%7B%22value%22%3A%220%22%2C%22scope%22%3A1%7D%2C%22isonline%22%3A%7B%22value%22%3A%220%22%2C%22scope%22%3A1%7D%2C%22isvip%22%3A%7B%22value%22%3A%220%22%2C%22scope%22%3A1%7D%7D; __gads=ID=528c77ea986faaea-22e644e4a5c50070:T=1610283467:RT=1610283467:S=ALNI_MZBVWR_IAnyiqtSZdRYoMCGhyEBeA; Hm_lpvt_6bcd52f51e9b3dce32bec4a3997715ac=1610283514; Hm_lvt_080836300300be57b7f34f4b3e97d911=1609233415,1611379149; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1611402094',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->login[ E:\xamp\htdocs\ht\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] E:\xamp\htdocs\ht\public/../application/admin\view\admin\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File

@@ -1,0 +1,1296 @@
+---------------------------------------------------------------
+[ 2020-12-29T17:55:38+08:00 ] 0.0.0.0 GET localhost/ht/public/admin.php/index/index.html
+[运行时间：0.198392s] [吞吐率：5.04req/s] [内存消耗：2,251.09kb] [文件加载：50]
+[ info ] [ LANG ] E:\xamp\htdocs\ht\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'referer' => 'http://localhost/ht/public/admin.php/admin/login1.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=5400513536; pgv_si=s5846208512; PHPSESSID=9cnt947buqlue9c8sbuesf9tgu; adminer_version=4.7.8; Hm_lvt_080836300300be57b7f34f4b3e97d911=1609233415; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1609235668',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\xamp\htdocs\ht\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\xamp\htdocs\ht\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-12-29T17:55:38+08:00 ] 0.0.0.0 GET localhost/ht/public/admin.php/index/welcome.html
+[运行时间：0.140691s] [吞吐率：7.11req/s] [内存消耗：2,242.67kb] [文件加载：50]
+[ info ] [ LANG ] E:\xamp\htdocs\ht\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-dest' => 'iframe',
+  'referer' => 'http://localhost/ht/public/admin.php/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=5400513536; pgv_si=s5846208512; PHPSESSID=9cnt947buqlue9c8sbuesf9tgu; adminer_version=4.7.8; Hm_lvt_080836300300be57b7f34f4b3e97d911=1609233415; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1609235668',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ E:\xamp\htdocs\ht\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\xamp\htdocs\ht\public/../application/admin\view\index\welcome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-12-29T17:55:40+08:00 ] 0.0.0.0 POST localhost/ht/public/admin.php/index/welcome1.html
+[运行时间：0.182834s] [吞吐率：5.47req/s] [内存消耗：3,607.28kb] [文件加载：62]
+[ info ] [ LANG ] E:\xamp\htdocs\ht\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'iframe',
+  'referer' => 'http://localhost/ht/public/admin.php/index/welcome.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=5400513536; pgv_si=s5846208512; PHPSESSID=9cnt947buqlue9c8sbuesf9tgu; adminer_version=4.7.8; Hm_lvt_080836300300be57b7f34f4b3e97d911=1609233415; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1609235739',
+)
+[ info ] [ PARAM ] array (
+  'imagepath' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome1[ E:\xamp\htdocs\ht\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001016s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.028510s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'create_time' in 'field list'[E:\xamp\htdocs\ht\thinkphp\library\think\db\Connection.php:453]
+---------------------------------------------------------------
+[ 2020-12-29T17:56:55+08:00 ] 0.0.0.0 GET localhost/ht/public/admin.php/index/index.html
+[运行时间：0.231977s] [吞吐率：4.31req/s] [内存消耗：2,251.09kb] [文件加载：50]
+[ info ] [ LANG ] E:\xamp\htdocs\ht\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'referer' => 'http://localhost/ht/public/admin.php/admin/login1.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=5400513536; pgv_si=s5846208512; PHPSESSID=9cnt947buqlue9c8sbuesf9tgu; adminer_version=4.7.8; Hm_lvt_080836300300be57b7f34f4b3e97d911=1609233415; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1609235739',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\xamp\htdocs\ht\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\xamp\htdocs\ht\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-12-29T17:56:55+08:00 ] 0.0.0.0 GET localhost/ht/public/admin.php/index/welcome.html
+[运行时间：0.161132s] [吞吐率：6.21req/s] [内存消耗：2,242.67kb] [文件加载：50]
+[ info ] [ LANG ] E:\xamp\htdocs\ht\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-dest' => 'iframe',
+  'referer' => 'http://localhost/ht/public/admin.php/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=5400513536; pgv_si=s5846208512; PHPSESSID=9cnt947buqlue9c8sbuesf9tgu; adminer_version=4.7.8; Hm_lvt_080836300300be57b7f34f4b3e97d911=1609233415; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1609235739',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ E:\xamp\htdocs\ht\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\xamp\htdocs\ht\public/../application/admin\view\index\welcome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-12-29T17:56:57+08:00 ] 0.0.0.0 POST localhost/ht/public/admin.php/index/welcome1.html
+[运行时间：0.202246s] [吞吐率：4.94req/s] [内存消耗：3,607.70kb] [文件加载：62]
+[ info ] [ LANG ] E:\xamp\htdocs\ht\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'iframe',
+  'referer' => 'http://localhost/ht/public/admin.php/index/welcome.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=5400513536; pgv_si=s5846208512; PHPSESSID=9cnt947buqlue9c8sbuesf9tgu; adminer_version=4.7.8; Hm_lvt_080836300300be57b7f34f4b3e97d911=1609233415; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1609235816',
+)
+[ info ] [ PARAM ] array (
+  'imagepath' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome1[ E:\xamp\htdocs\ht\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000943s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.034597s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'update_time' in 'field list'[E:\xamp\htdocs\ht\thinkphp\library\think\db\Connection.php:453]
+---------------------------------------------------------------
+[ 2020-12-29T17:57:19+08:00 ] 0.0.0.0 GET localhost/ht/public/admin.php/index/index.html
+[运行时间：0.253674s] [吞吐率：3.94req/s] [内存消耗：2,251.09kb] [文件加载：50]
+[ info ] [ LANG ] E:\xamp\htdocs\ht\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'referer' => 'http://localhost/ht/public/admin.php/admin/login1.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=5400513536; pgv_si=s5846208512; PHPSESSID=9cnt947buqlue9c8sbuesf9tgu; adminer_version=4.7.8; Hm_lvt_080836300300be57b7f34f4b3e97d911=1609233415; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1609235816',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\xamp\htdocs\ht\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\xamp\htdocs\ht\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-12-29T17:57:20+08:00 ] 0.0.0.0 GET localhost/ht/public/admin.php/index/welcome.html
+[运行时间：0.162614s] [吞吐率：6.15req/s] [内存消耗：2,242.67kb] [文件加载：50]
+[ info ] [ LANG ] E:\xamp\htdocs\ht\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-dest' => 'iframe',
+  'referer' => 'http://localhost/ht/public/admin.php/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=5400513536; pgv_si=s5846208512; PHPSESSID=9cnt947buqlue9c8sbuesf9tgu; adminer_version=4.7.8; Hm_lvt_080836300300be57b7f34f4b3e97d911=1609233415; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1609235816',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ E:\xamp\htdocs\ht\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\xamp\htdocs\ht\public/../application/admin\view\index\welcome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-12-29T17:57:21+08:00 ] 0.0.0.0 POST localhost/ht/public/admin.php/index/welcome1.html
+[运行时间：0.217432s] [吞吐率：4.60req/s] [内存消耗：3,449.51kb] [文件加载：57]
+[ info ] [ LANG ] E:\xamp\htdocs\ht\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'iframe',
+  'referer' => 'http://localhost/ht/public/admin.php/index/welcome.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=5400513536; pgv_si=s5846208512; PHPSESSID=9cnt947buqlue9c8sbuesf9tgu; adminer_version=4.7.8; Hm_lvt_080836300300be57b7f34f4b3e97d911=1609233415; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1609235840',
+)
+[ info ] [ PARAM ] array (
+  'imagepath' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome1[ E:\xamp\htdocs\ht\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000997s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.027962s ]
+[ sql ] [ SQL ] INSERT INTO `shop_goods` (`imagepath` , `create_time` , `update_time`) VALUES ('' , '2020-12-29 17:57:21' , '2020-12-29 17:57:21') [ RunTime:0.066078s ]
+---------------------------------------------------------------
+[ 2020-12-29T17:58:46+08:00 ] 0.0.0.0 GET localhost/ht/public/admin.php/index/index.html
+[运行时间：0.212492s] [吞吐率：4.71req/s] [内存消耗：2,251.09kb] [文件加载：50]
+[ info ] [ LANG ] E:\xamp\htdocs\ht\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'referer' => 'http://localhost/ht/public/admin.php/admin/login1.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=5400513536; pgv_si=s5846208512; PHPSESSID=9cnt947buqlue9c8sbuesf9tgu; adminer_version=4.7.8; Hm_lvt_080836300300be57b7f34f4b3e97d911=1609233415; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1609235840',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\xamp\htdocs\ht\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\xamp\htdocs\ht\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-12-29T17:58:46+08:00 ] 0.0.0.0 GET localhost/ht/public/admin.php/index/welcome.html
+[运行时间：0.164968s] [吞吐率：6.06req/s] [内存消耗：2,242.67kb] [文件加载：50]
+[ info ] [ LANG ] E:\xamp\htdocs\ht\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-dest' => 'iframe',
+  'referer' => 'http://localhost/ht/public/admin.php/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=5400513536; pgv_si=s5846208512; PHPSESSID=9cnt947buqlue9c8sbuesf9tgu; adminer_version=4.7.8; Hm_lvt_080836300300be57b7f34f4b3e97d911=1609233415; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1609235840',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ E:\xamp\htdocs\ht\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\xamp\htdocs\ht\public/../application/admin\view\index\welcome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-12-29T17:59:43+08:00 ] 0.0.0.0 POST localhost/ht/public/admin.php/index/welcome1.html
+[运行时间：0.202155s] [吞吐率：4.95req/s] [内存消耗：3,449.51kb] [文件加载：57]
+[ info ] [ LANG ] E:\xamp\htdocs\ht\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'iframe',
+  'referer' => 'http://localhost/ht/public/admin.php/index/welcome.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=5400513536; pgv_si=s5846208512; PHPSESSID=9cnt947buqlue9c8sbuesf9tgu; adminer_version=4.7.8; Hm_lvt_080836300300be57b7f34f4b3e97d911=1609233415; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1609235927',
+)
+[ info ] [ PARAM ] array (
+  'imagepath' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome1[ E:\xamp\htdocs\ht\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001050s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.060825s ]
+[ sql ] [ SQL ] INSERT INTO `shop_goods` (`imagepath` , `create_time` , `update_time`) VALUES ('' , '2020-12-29 17:59:43' , '2020-12-29 17:59:43') [ RunTime:0.001392s ]
+---------------------------------------------------------------
+[ 2020-12-29T17:59:47+08:00 ] 0.0.0.0 GET localhost/ht/public/admin.php/index/articlelist.html
+[运行时间：0.089100s] [吞吐率：11.22req/s] [内存消耗：2,181.37kb] [文件加载：49]
+[ info ] [ LANG ] E:\xamp\htdocs\ht\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'articlelist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-dest' => 'iframe',
+  'referer' => 'http://localhost/ht/public/admin.php/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=5400513536; pgv_si=s5846208512; PHPSESSID=9cnt947buqlue9c8sbuesf9tgu; adminer_version=4.7.8; Hm_lvt_080836300300be57b7f34f4b3e97d911=1609233415; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1609235927',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->articlelist[ E:\xamp\htdocs\ht\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\xamp\htdocs\ht\public/../application/admin\view\index\articlelist.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-12-29T17:59:47+08:00 ] 0.0.0.0 GET localhost/ht/public/admin.php/index/__STATIC/img/jquery/1.9.1/jquery.min.js
+[运行时间：0.151348s] [吞吐率：6.61req/s] [内存消耗：2,219.06kb] [文件加载：51]
+[ info ] [ LANG ] E:\xamp\htdocs\ht\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => '__STATIC',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'accept' => '*/*',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-dest' => 'script',
+  'referer' => 'http://localhost/ht/public/admin.php/index/articlelist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=5400513536; pgv_si=s5846208512; PHPSESSID=9cnt947buqlue9c8sbuesf9tgu; adminer_version=4.7.8; Hm_lvt_080836300300be57b7f34f4b3e97d911=1609233415; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1609235927',
+)
+[ info ] [ PARAM ] array (
+  'img' => 'jquery',
+  0 => 'jquery.min.js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-12-29T17:59:47+08:00 ] 0.0.0.0 GET localhost/ht/public/admin.php/index/__STATIC/img/layer/2.4/layer.js
+[运行时间：0.164008s] [吞吐率：6.10req/s] [内存消耗：2,219.03kb] [文件加载：51]
+[ info ] [ LANG ] E:\xamp\htdocs\ht\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => '__STATIC',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'accept' => '*/*',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-dest' => 'script',
+  'referer' => 'http://localhost/ht/public/admin.php/index/articlelist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=5400513536; pgv_si=s5846208512; PHPSESSID=9cnt947buqlue9c8sbuesf9tgu; adminer_version=4.7.8; Hm_lvt_080836300300be57b7f34f4b3e97d911=1609233415; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1609235927',
+)
+[ info ] [ PARAM ] array (
+  'img' => 'layer',
+  0 => 'layer.js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-12-29T17:59:47+08:00 ] 0.0.0.0 GET localhost/ht/public/admin.php/index/__STATIC/img/laypage/1.2/laypage.js
+[运行时间：0.152247s] [吞吐率：6.57req/s] [内存消耗：2,219.05kb] [文件加载：51]
+[ info ] [ LANG ] E:\xamp\htdocs\ht\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => '__STATIC',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'accept' => '*/*',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-dest' => 'script',
+  'referer' => 'http://localhost/ht/public/admin.php/index/articlelist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=5400513536; pgv_si=s5846208512; PHPSESSID=9cnt947buqlue9c8sbuesf9tgu; adminer_version=4.7.8; Hm_lvt_080836300300be57b7f34f4b3e97d911=1609233415; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1609235927',
+)
+[ info ] [ PARAM ] array (
+  'img' => 'laypage',
+  0 => 'laypage.js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-12-29T17:59:47+08:00 ] 0.0.0.0 GET localhost/ht/public/admin.php/index/__STATIC/img/datatables/1.10.0/jquery.dataTables.min.js
+[运行时间：0.174515s] [吞吐率：5.73req/s] [内存消耗：2,219.13kb] [文件加载：51]
+[ info ] [ LANG ] E:\xamp\htdocs\ht\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => '__STATIC',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'accept' => '*/*',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-dest' => 'script',
+  'referer' => 'http://localhost/ht/public/admin.php/index/articlelist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=5400513536; pgv_si=s5846208512; PHPSESSID=9cnt947buqlue9c8sbuesf9tgu; adminer_version=4.7.8; Hm_lvt_080836300300be57b7f34f4b3e97d911=1609233415; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1609235927',
+)
+[ info ] [ PARAM ] array (
+  'img' => 'datatables',
+  0 => 'jquery.dataTables.min.js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-12-29T17:59:47+08:00 ] 0.0.0.0 GET localhost/ht/public/admin.php/index/__STATIC/img/My97DatePicker/4.8/WdatePicker.js
+[运行时间：0.233335s] [吞吐率：4.29req/s] [内存消耗：2,219.09kb] [文件加载：51]
+[ info ] [ LANG ] E:\xamp\htdocs\ht\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => '__STATIC',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'accept' => '*/*',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-dest' => 'script',
+  'referer' => 'http://localhost/ht/public/admin.php/index/articlelist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=5400513536; pgv_si=s5846208512; PHPSESSID=9cnt947buqlue9c8sbuesf9tgu; adminer_version=4.7.8; Hm_lvt_080836300300be57b7f34f4b3e97d911=1609233415; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1609235927',
+)
+[ info ] [ PARAM ] array (
+  'img' => 'My97DatePicker',
+  0 => 'WdatePicker.js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-12-29T17:59:47+08:00 ] 0.0.0.0 GET localhost/ht/public/admin.php/index/__STATIC/img/datatables/1.10.0/jquery.dataTables.min.js
+[运行时间：0.118291s] [吞吐率：8.45req/s] [内存消耗：2,219.13kb] [文件加载：51]
+[ info ] [ LANG ] E:\xamp\htdocs\ht\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => '__STATIC',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'accept' => '*/*',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-dest' => 'script',
+  'referer' => 'http://localhost/ht/public/admin.php/index/articlelist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=5400513536; pgv_si=s5846208512; PHPSESSID=9cnt947buqlue9c8sbuesf9tgu; adminer_version=4.7.8; Hm_lvt_080836300300be57b7f34f4b3e97d911=1609233415; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1609235927',
+)
+[ info ] [ PARAM ] array (
+  'img' => 'datatables',
+  0 => 'jquery.dataTables.min.js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-12-29T17:59:48+08:00 ] 0.0.0.0 GET localhost/ht/public/admin.php/index/__STATIC/img/laypage/1.2/laypage.js
+[运行时间：0.135178s] [吞吐率：7.40req/s] [内存消耗：2,219.05kb] [文件加载：51]
+[ info ] [ LANG ] E:\xamp\htdocs\ht\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => '__STATIC',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'accept' => '*/*',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-dest' => 'script',
+  'referer' => 'http://localhost/ht/public/admin.php/index/articlelist.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=5400513536; pgv_si=s5846208512; PHPSESSID=9cnt947buqlue9c8sbuesf9tgu; adminer_version=4.7.8; Hm_lvt_080836300300be57b7f34f4b3e97d911=1609233415; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1609235927',
+)
+[ info ] [ PARAM ] array (
+  'img' => 'laypage',
+  0 => 'laypage.js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-12-29T17:59:54+08:00 ] 0.0.0.0 GET localhost/ht/public/admin.php/index/productadd.html
+[运行时间：0.192774s] [吞吐率：5.19req/s] [内存消耗：3,246.76kb] [文件加载：58]
+[ info ] [ LANG ] E:\xamp\htdocs\ht\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'productadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'referer' => 'http://localhost/ht/public/admin.php/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=5400513536; pgv_si=s5846208512; PHPSESSID=9cnt947buqlue9c8sbuesf9tgu; adminer_version=4.7.8; Hm_lvt_080836300300be57b7f34f4b3e97d911=1609233415; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1609235927',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->productadd[ E:\xamp\htdocs\ht\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\xamp\htdocs\ht\public/../application/admin\view\index\productadd.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000920s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_type` [ RunTime:0.057207s ]
+[ sql ] [ SQL ] SELECT *,concat(path,',',id) as paths FROM `shop_type` ORDER BY `paths` [ RunTime:0.001104s ]
+---------------------------------------------------------------
+[ 2020-12-29T18:00:00+08:00 ] 0.0.0.0 GET localhost/ht/public/admin.php/index/productadd.htm
+[运行时间：0.117960s] [吞吐率：8.48req/s] [内存消耗：2,219.28kb] [文件加载：51]
+[ info ] [ LANG ] E:\xamp\htdocs\ht\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'productadd.htm',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=5400513536; pgv_si=s5846208512; PHPSESSID=9cnt947buqlue9c8sbuesf9tgu; adminer_version=4.7.8; Hm_lvt_080836300300be57b7f34f4b3e97d911=1609233415; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1609235927',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-12-29T18:00:07+08:00 ] 0.0.0.0 GET localhost/ht/public/admin.php/index/productadd.htm
+[运行时间：0.126061s] [吞吐率：7.93req/s] [内存消耗：2,219.48kb] [文件加载：51]
+[ info ] [ LANG ] E:\xamp\htdocs\ht\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'productadd.htm',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=5400513536; pgv_si=s5846208512; PHPSESSID=9cnt947buqlue9c8sbuesf9tgu; adminer_version=4.7.8; Hm_lvt_080836300300be57b7f34f4b3e97d911=1609233415; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1609235927',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-12-29T18:00:22+08:00 ] 0.0.0.0 GET localhost/ht/public/admin.php/index/productadd.html
+[运行时间：0.165385s] [吞吐率：6.05req/s] [内存消耗：3,246.43kb] [文件加载：58]
+[ info ] [ LANG ] E:\xamp\htdocs\ht\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'productadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=5400513536; pgv_si=s5846208512; PHPSESSID=9cnt947buqlue9c8sbuesf9tgu; adminer_version=4.7.8; Hm_lvt_080836300300be57b7f34f4b3e97d911=1609233415; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1609235927',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->productadd[ E:\xamp\htdocs\ht\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\xamp\htdocs\ht\public/../application/admin\view\index\productadd.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000898s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_type` [ RunTime:0.028564s ]
+[ sql ] [ SQL ] SELECT *,concat(path,',',id) as paths FROM `shop_type` ORDER BY `paths` [ RunTime:0.001042s ]
+---------------------------------------------------------------
+[ 2020-12-29T18:00:26+08:00 ] 0.0.0.0 GET localhost/ht/public/admin.php
+[运行时间：0.237530s] [吞吐率：4.21req/s] [内存消耗：2,250.32kb] [文件加载：50]
+[ info ] [ LANG ] E:\xamp\htdocs\ht\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=5400513536; pgv_si=s5846208512; PHPSESSID=9cnt947buqlue9c8sbuesf9tgu; adminer_version=4.7.8; Hm_lvt_080836300300be57b7f34f4b3e97d911=1609233415; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1609235927',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\xamp\htdocs\ht\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\xamp\htdocs\ht\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-12-29T18:00:26+08:00 ] 0.0.0.0 GET localhost/ht/public/admin.php/index/welcome.html
+[运行时间：0.120759s] [吞吐率：8.28req/s] [内存消耗：2,242.53kb] [文件加载：50]
+[ info ] [ LANG ] E:\xamp\htdocs\ht\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-dest' => 'iframe',
+  'referer' => 'http://localhost/ht/public/admin.php',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=5400513536; pgv_si=s5846208512; PHPSESSID=9cnt947buqlue9c8sbuesf9tgu; adminer_version=4.7.8; Hm_lvt_080836300300be57b7f34f4b3e97d911=1609233415; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1609235927',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ E:\xamp\htdocs\ht\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\xamp\htdocs\ht\public/../application/admin\view\index\welcome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-12-29T18:00:29+08:00 ] 0.0.0.0 GET localhost/ht/public/admin.php/admin/out.html
+[运行时间：0.115085s] [吞吐率：8.69req/s] [内存消耗：2,068.84kb] [文件加载：50]
+[ info ] [ LANG ] E:\xamp\htdocs\ht\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'out',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'referer' => 'http://localhost/ht/public/admin.php',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=5400513536; pgv_si=s5846208512; PHPSESSID=9cnt947buqlue9c8sbuesf9tgu; adminer_version=4.7.8; Hm_lvt_080836300300be57b7f34f4b3e97d911=1609233415; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1609236027',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->out[ E:\xamp\htdocs\ht\application\admin\controller\Admin.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] E:\xamp\htdocs\ht\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-12-29T18:00:32+08:00 ] 0.0.0.0 GET localhost/ht/public/admin.php/admin/login.html
+[运行时间：0.098767s] [吞吐率：10.12req/s] [内存消耗：2,066.02kb] [文件加载：49]
+[ info ] [ LANG ] E:\xamp\htdocs\ht\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-dest' => 'document',
+  'referer' => 'http://localhost/ht/public/admin.php/admin/out.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=5400513536; pgv_si=s5846208512; PHPSESSID=9cnt947buqlue9c8sbuesf9tgu; adminer_version=4.7.8; Hm_lvt_080836300300be57b7f34f4b3e97d911=1609233415; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1609236027',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->login[ E:\xamp\htdocs\ht\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] E:\xamp\htdocs\ht\public/../application/admin\view\admin\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-12-29T18:00:38+08:00 ] 0.0.0.0 POST localhost/ht/public/admin.php/admin/login1.html
+[运行时间：0.157919s] [吞吐率：6.33req/s] [内存消耗：3,058.35kb] [文件加载：58]
+[ info ] [ LANG ] E:\xamp\htdocs\ht\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'login1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '28',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://localhost',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'referer' => 'http://localhost/ht/public/admin.php/admin/login.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=5400513536; pgv_si=s5846208512; PHPSESSID=9cnt947buqlue9c8sbuesf9tgu; adminer_version=4.7.8; Hm_lvt_080836300300be57b7f34f4b3e97d911=1609233415; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1609236033',
+)
+[ info ] [ PARAM ] array (
+  'username' => '111',
+  'password' => '111111',
+)
+[ info ] [ RUN ] app\admin\controller\Admin->login1[ E:\xamp\htdocs\ht\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] E:\xamp\htdocs\ht\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001042s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_user` [ RunTime:0.030997s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_user` WHERE  (  binary username = '111' ) LIMIT 1 [ RunTime:0.001091s ]
+---------------------------------------------------------------
+[ 2020-12-29T18:00:42+08:00 ] 0.0.0.0 GET localhost/ht/public/admin.php/index/index.html
+[运行时间：0.213491s] [吞吐率：4.68req/s] [内存消耗：2,250.95kb] [文件加载：50]
+[ info ] [ LANG ] E:\xamp\htdocs\ht\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-dest' => 'document',
+  'referer' => 'http://localhost/ht/public/admin.php/admin/login1.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=5400513536; pgv_si=s5846208512; PHPSESSID=9cnt947buqlue9c8sbuesf9tgu; adminer_version=4.7.8; Hm_lvt_080836300300be57b7f34f4b3e97d911=1609233415; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1609236033',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\xamp\htdocs\ht\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\xamp\htdocs\ht\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-12-29T18:00:42+08:00 ] 0.0.0.0 GET localhost/ht/public/admin.php/index/welcome.html
+[运行时间：0.121720s] [吞吐率：8.22req/s] [内存消耗：2,242.67kb] [文件加载：50]
+[ info ] [ LANG ] E:\xamp\htdocs\ht\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-dest' => 'iframe',
+  'referer' => 'http://localhost/ht/public/admin.php/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=5400513536; pgv_si=s5846208512; PHPSESSID=9cnt947buqlue9c8sbuesf9tgu; adminer_version=4.7.8; Hm_lvt_080836300300be57b7f34f4b3e97d911=1609233415; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1609236033',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ E:\xamp\htdocs\ht\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\xamp\htdocs\ht\public/../application/admin\view\index\welcome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-12-29T18:00:50+08:00 ] 0.0.0.0 POST localhost/ht/public/admin.php/admin/login1.html
+[运行时间：0.199291s] [吞吐率：5.02req/s] [内存消耗：3,058.46kb] [文件加载：58]
+[ info ] [ LANG ] E:\xamp\htdocs\ht\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'login1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '28',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'origin' => 'http://localhost',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'referer' => 'http://localhost/ht/public/admin.php/admin/login.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=5400513536; pgv_si=s5846208512; PHPSESSID=9cnt947buqlue9c8sbuesf9tgu; adminer_version=4.7.8; Hm_lvt_080836300300be57b7f34f4b3e97d911=1609233415; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1609236043',
+)
+[ info ] [ PARAM ] array (
+  'username' => '111',
+  'password' => '111111',
+)
+[ info ] [ RUN ] app\admin\controller\Admin->login1[ E:\xamp\htdocs\ht\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] E:\xamp\htdocs\ht\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000937s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_user` [ RunTime:0.030293s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_user` WHERE  (  binary username = '111' ) LIMIT 1 [ RunTime:0.001009s ]
+---------------------------------------------------------------
+[ 2020-12-29T18:00:53+08:00 ] 0.0.0.0 GET localhost/ht/public/admin.php/index/index.html
+[运行时间：0.198832s] [吞吐率：5.03req/s] [内存消耗：2,250.95kb] [文件加载：50]
+[ info ] [ LANG ] E:\xamp\htdocs\ht\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-dest' => 'document',
+  'referer' => 'http://localhost/ht/public/admin.php/admin/login1.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=5400513536; pgv_si=s5846208512; PHPSESSID=9cnt947buqlue9c8sbuesf9tgu; adminer_version=4.7.8; Hm_lvt_080836300300be57b7f34f4b3e97d911=1609233415; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1609236043',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\xamp\htdocs\ht\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\xamp\htdocs\ht\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-12-29T18:00:54+08:00 ] 0.0.0.0 GET localhost/ht/public/admin.php/index/welcome.html
+[运行时间：0.125849s] [吞吐率：7.95req/s] [内存消耗：2,242.67kb] [文件加载：50]
+[ info ] [ LANG ] E:\xamp\htdocs\ht\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-dest' => 'iframe',
+  'referer' => 'http://localhost/ht/public/admin.php/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=5400513536; pgv_si=s5846208512; PHPSESSID=9cnt947buqlue9c8sbuesf9tgu; adminer_version=4.7.8; Hm_lvt_080836300300be57b7f34f4b3e97d911=1609233415; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1609236043',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ E:\xamp\htdocs\ht\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\xamp\htdocs\ht\public/../application/admin\view\index\welcome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File

@@ -1,0 +1,715 @@
+---------------------------------------------------------------
+[ 2021-01-20T21:37:54+08:00 ] 0.0.0.0 GET localhost/ht/public/
+[运行时间：5.073337s] [吞吐率：0.20req/s] [内存消耗：3,117.35kb] [文件加载：56]
+[ info ] [ LANG ] E:\xamp\htdocs\ht\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=5400513536; pgv_si=s5846208512; PHPSESSID=9cnt947buqlue9c8sbuesf9tgu; Hm_lvt_080836300300be57b7f34f4b3e97d911=1609233415; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1609676547; TY_SESSION_ID=e6c123d3-6b94-4e99-8d96-c0264a3fd1fb; Hm_lvt_6bcd52f51e9b3dce32bec4a3997715ac=1610283467; Hm_up_6bcd52f51e9b3dce32bec4a3997715ac=%7B%22islogin%22%3A%7B%22value%22%3A%220%22%2C%22scope%22%3A1%7D%2C%22isonline%22%3A%7B%22value%22%3A%220%22%2C%22scope%22%3A1%7D%2C%22isvip%22%3A%7B%22value%22%3A%220%22%2C%22scope%22%3A1%7D%7D; __gads=ID=528c77ea986faaea-22e644e4a5c50070:T=1610283467:RT=1610283467:S=ALNI_MZBVWR_IAnyiqtSZdRYoMCGhyEBeA; Hm_lpvt_6bcd52f51e9b3dce32bec4a3997715ac=1610283514',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\xamp\htdocs\ht\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\xamp\htdocs\ht\public/../application/index\view\index\index.html [ array (
+  0 => 'type',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.787464s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_type` [ RunTime:0.894469s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 0 [ RunTime:0.351059s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 170 [ RunTime:0.002448s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 113 [ RunTime:0.003173s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 155 [ RunTime:0.001142s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 166 [ RunTime:0.001203s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 138 [ RunTime:0.001501s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 136 [ RunTime:0.000774s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 137 [ RunTime:0.000700s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 141 [ RunTime:0.000690s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 149 [ RunTime:0.000758s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 150 [ RunTime:0.000671s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 143 [ RunTime:0.000655s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 147 [ RunTime:0.000639s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 148 [ RunTime:0.000974s ]
+---------------------------------------------------------------
+[ 2021-01-20T21:37:55+08:00 ] 0.0.0.0 GET localhost/ht/public/static/bst/dist/img/arrow.png
+[运行时间：0.368013s] [吞吐率：2.72req/s] [内存消耗：1,656.28kb] [文件加载：44]
+[ info ] [ LANG ] E:\xamp\htdocs\ht\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'static',
+    2 => 'bst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36',
+  'accept' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-dest' => 'image',
+  'referer' => 'http://localhost/ht/public/static/bst/dist/css/home.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=5400513536; pgv_si=s5846208512; PHPSESSID=9cnt947buqlue9c8sbuesf9tgu; Hm_lvt_080836300300be57b7f34f4b3e97d911=1609233415; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1609676547; TY_SESSION_ID=e6c123d3-6b94-4e99-8d96-c0264a3fd1fb; Hm_lvt_6bcd52f51e9b3dce32bec4a3997715ac=1610283467; Hm_up_6bcd52f51e9b3dce32bec4a3997715ac=%7B%22islogin%22%3A%7B%22value%22%3A%220%22%2C%22scope%22%3A1%7D%2C%22isonline%22%3A%7B%22value%22%3A%220%22%2C%22scope%22%3A1%7D%2C%22isvip%22%3A%7B%22value%22%3A%220%22%2C%22scope%22%3A1%7D%7D; __gads=ID=528c77ea986faaea-22e644e4a5c50070:T=1610283467:RT=1610283467:S=ALNI_MZBVWR_IAnyiqtSZdRYoMCGhyEBeA; Hm_lpvt_6bcd52f51e9b3dce32bec4a3997715ac=1610283514',
+)
+[ info ] [ PARAM ] array (
+  'dist' => 'img',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-20T21:37:59+08:00 ] 0.0.0.0 GET localhost/ht/public/index/shop1.html?id=170
+[运行时间：0.528567s] [吞吐率：1.89req/s] [内存消耗：3,085.31kb] [文件加载：58]
+[ info ] [ LANG ] E:\xamp\htdocs\ht\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'shop1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'referer' => 'http://localhost/ht/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=5400513536; pgv_si=s5846208512; PHPSESSID=9cnt947buqlue9c8sbuesf9tgu; Hm_lvt_080836300300be57b7f34f4b3e97d911=1609233415; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1609676547; TY_SESSION_ID=e6c123d3-6b94-4e99-8d96-c0264a3fd1fb; Hm_lvt_6bcd52f51e9b3dce32bec4a3997715ac=1610283467; Hm_up_6bcd52f51e9b3dce32bec4a3997715ac=%7B%22islogin%22%3A%7B%22value%22%3A%220%22%2C%22scope%22%3A1%7D%2C%22isonline%22%3A%7B%22value%22%3A%220%22%2C%22scope%22%3A1%7D%2C%22isvip%22%3A%7B%22value%22%3A%220%22%2C%22scope%22%3A1%7D%7D; __gads=ID=528c77ea986faaea-22e644e4a5c50070:T=1610283467:RT=1610283467:S=ALNI_MZBVWR_IAnyiqtSZdRYoMCGhyEBeA; Hm_lpvt_6bcd52f51e9b3dce32bec4a3997715ac=1610283514',
+)
+[ info ] [ PARAM ] array (
+  'id' => '170',
+)
+[ info ] [ RUN ] app\index\controller\Index->shop1[ E:\xamp\htdocs\ht\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000806s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.288874s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `tid` = 170 [ RunTime:0.017981s ]
+[ error ] [8]未定义变量: image[E:\xamp\htdocs\ht\application\index\controller\Index.php:123]
+---------------------------------------------------------------
+[ 2021-01-20T21:38:01+08:00 ] 0.0.0.0 GET localhost/ht/public/
+[运行时间：0.238982s] [吞吐率：4.18req/s] [内存消耗：3,117.36kb] [文件加载：56]
+[ info ] [ LANG ] E:\xamp\htdocs\ht\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=5400513536; pgv_si=s5846208512; PHPSESSID=9cnt947buqlue9c8sbuesf9tgu; Hm_lvt_080836300300be57b7f34f4b3e97d911=1609233415; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1609676547; TY_SESSION_ID=e6c123d3-6b94-4e99-8d96-c0264a3fd1fb; Hm_lvt_6bcd52f51e9b3dce32bec4a3997715ac=1610283467; Hm_up_6bcd52f51e9b3dce32bec4a3997715ac=%7B%22islogin%22%3A%7B%22value%22%3A%220%22%2C%22scope%22%3A1%7D%2C%22isonline%22%3A%7B%22value%22%3A%220%22%2C%22scope%22%3A1%7D%2C%22isvip%22%3A%7B%22value%22%3A%220%22%2C%22scope%22%3A1%7D%7D; __gads=ID=528c77ea986faaea-22e644e4a5c50070:T=1610283467:RT=1610283467:S=ALNI_MZBVWR_IAnyiqtSZdRYoMCGhyEBeA; Hm_lpvt_6bcd52f51e9b3dce32bec4a3997715ac=1610283514',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\xamp\htdocs\ht\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\xamp\htdocs\ht\public/../application/index\view\index\index.html [ array (
+  0 => 'type',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001476s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_type` [ RunTime:0.041421s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 0 [ RunTime:0.000874s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 170 [ RunTime:0.000962s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 113 [ RunTime:0.000801s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 155 [ RunTime:0.000868s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 166 [ RunTime:0.001963s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 138 [ RunTime:0.000949s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 136 [ RunTime:0.000831s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 137 [ RunTime:0.001806s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 141 [ RunTime:0.000737s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 149 [ RunTime:0.000751s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 150 [ RunTime:0.001917s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 143 [ RunTime:0.000825s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 147 [ RunTime:0.000701s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 148 [ RunTime:0.000724s ]
+---------------------------------------------------------------
+[ 2021-01-20T21:38:02+08:00 ] 0.0.0.0 GET localhost/ht/public/index/shop1.html?id=113
+[运行时间：0.415725s] [吞吐率：2.41req/s] [内存消耗：3,158.03kb] [文件加载：56]
+[ info ] [ LANG ] E:\xamp\htdocs\ht\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'shop1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'referer' => 'http://localhost/ht/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=5400513536; pgv_si=s5846208512; PHPSESSID=9cnt947buqlue9c8sbuesf9tgu; Hm_lvt_080836300300be57b7f34f4b3e97d911=1609233415; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1609676547; TY_SESSION_ID=e6c123d3-6b94-4e99-8d96-c0264a3fd1fb; Hm_lvt_6bcd52f51e9b3dce32bec4a3997715ac=1610283467; Hm_up_6bcd52f51e9b3dce32bec4a3997715ac=%7B%22islogin%22%3A%7B%22value%22%3A%220%22%2C%22scope%22%3A1%7D%2C%22isonline%22%3A%7B%22value%22%3A%220%22%2C%22scope%22%3A1%7D%2C%22isvip%22%3A%7B%22value%22%3A%220%22%2C%22scope%22%3A1%7D%7D; __gads=ID=528c77ea986faaea-22e644e4a5c50070:T=1610283467:RT=1610283467:S=ALNI_MZBVWR_IAnyiqtSZdRYoMCGhyEBeA; Hm_lpvt_6bcd52f51e9b3dce32bec4a3997715ac=1610283514',
+)
+[ info ] [ PARAM ] array (
+  'id' => '113',
+)
+[ info ] [ RUN ] app\index\controller\Index->shop1[ E:\xamp\htdocs\ht\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\xamp\htdocs\ht\public/../application/index\view\index\shop1.html [ array (
+  0 => 'shop',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000766s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.208113s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `tid` = 113 [ RunTime:0.001756s ]
+---------------------------------------------------------------
+[ 2021-01-20T21:38:02+08:00 ] 0.0.0.0 GET localhost/ht/public//upImg/20191214/1e28ac7bdf592cec17196f1c1656f1eb.jpg
+[运行时间：0.190917s] [吞吐率：5.24req/s] [内存消耗：1,656.25kb] [文件加载：44]
+[ info ] [ LANG ] E:\xamp\htdocs\ht\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'upImg',
+    2 => '20191214',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36',
+  'accept' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-dest' => 'image',
+  'referer' => 'http://localhost/ht/public/index/shop1.html?id=113',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=5400513536; pgv_si=s5846208512; PHPSESSID=9cnt947buqlue9c8sbuesf9tgu; Hm_lvt_080836300300be57b7f34f4b3e97d911=1609233415; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1609676547; TY_SESSION_ID=e6c123d3-6b94-4e99-8d96-c0264a3fd1fb; Hm_lvt_6bcd52f51e9b3dce32bec4a3997715ac=1610283467; Hm_up_6bcd52f51e9b3dce32bec4a3997715ac=%7B%22islogin%22%3A%7B%22value%22%3A%220%22%2C%22scope%22%3A1%7D%2C%22isonline%22%3A%7B%22value%22%3A%220%22%2C%22scope%22%3A1%7D%2C%22isvip%22%3A%7B%22value%22%3A%220%22%2C%22scope%22%3A1%7D%7D; __gads=ID=528c77ea986faaea-22e644e4a5c50070:T=1610283467:RT=1610283467:S=ALNI_MZBVWR_IAnyiqtSZdRYoMCGhyEBeA; Hm_lpvt_6bcd52f51e9b3dce32bec4a3997715ac=1610283514',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-20T21:38:02+08:00 ] 0.0.0.0 GET localhost/ht/public//upImg/20191214/45e2aee0c685adf993eb4d4cfca1e5e5.jpg
+[运行时间：0.231380s] [吞吐率：4.32req/s] [内存消耗：1,656.25kb] [文件加载：44]
+[ info ] [ LANG ] E:\xamp\htdocs\ht\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'upImg',
+    2 => '20191214',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36',
+  'accept' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-dest' => 'image',
+  'referer' => 'http://localhost/ht/public/index/shop1.html?id=113',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=5400513536; pgv_si=s5846208512; PHPSESSID=9cnt947buqlue9c8sbuesf9tgu; Hm_lvt_080836300300be57b7f34f4b3e97d911=1609233415; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1609676547; TY_SESSION_ID=e6c123d3-6b94-4e99-8d96-c0264a3fd1fb; Hm_lvt_6bcd52f51e9b3dce32bec4a3997715ac=1610283467; Hm_up_6bcd52f51e9b3dce32bec4a3997715ac=%7B%22islogin%22%3A%7B%22value%22%3A%220%22%2C%22scope%22%3A1%7D%2C%22isonline%22%3A%7B%22value%22%3A%220%22%2C%22scope%22%3A1%7D%2C%22isvip%22%3A%7B%22value%22%3A%220%22%2C%22scope%22%3A1%7D%7D; __gads=ID=528c77ea986faaea-22e644e4a5c50070:T=1610283467:RT=1610283467:S=ALNI_MZBVWR_IAnyiqtSZdRYoMCGhyEBeA; Hm_lpvt_6bcd52f51e9b3dce32bec4a3997715ac=1610283514',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-20T21:38:02+08:00 ] 0.0.0.0 GET localhost/ht/public//upImg/20191214/519f0a6921ca08e41c6398a134103e90.jpg
+[运行时间：0.146580s] [吞吐率：6.82req/s] [内存消耗：1,656.25kb] [文件加载：44]
+[ info ] [ LANG ] E:\xamp\htdocs\ht\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'upImg',
+    2 => '20191214',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36',
+  'accept' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-dest' => 'image',
+  'referer' => 'http://localhost/ht/public/index/shop1.html?id=113',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=5400513536; pgv_si=s5846208512; PHPSESSID=9cnt947buqlue9c8sbuesf9tgu; Hm_lvt_080836300300be57b7f34f4b3e97d911=1609233415; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1609676547; TY_SESSION_ID=e6c123d3-6b94-4e99-8d96-c0264a3fd1fb; Hm_lvt_6bcd52f51e9b3dce32bec4a3997715ac=1610283467; Hm_up_6bcd52f51e9b3dce32bec4a3997715ac=%7B%22islogin%22%3A%7B%22value%22%3A%220%22%2C%22scope%22%3A1%7D%2C%22isonline%22%3A%7B%22value%22%3A%220%22%2C%22scope%22%3A1%7D%2C%22isvip%22%3A%7B%22value%22%3A%220%22%2C%22scope%22%3A1%7D%7D; __gads=ID=528c77ea986faaea-22e644e4a5c50070:T=1610283467:RT=1610283467:S=ALNI_MZBVWR_IAnyiqtSZdRYoMCGhyEBeA; Hm_lpvt_6bcd52f51e9b3dce32bec4a3997715ac=1610283514',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-20T21:38:02+08:00 ] 0.0.0.0 GET localhost/ht/public//upImg/20191214/f930545227a131eb4160b7f47300a6be.jpg
+[运行时间：0.142649s] [吞吐率：7.01req/s] [内存消耗：1,656.25kb] [文件加载：44]
+[ info ] [ LANG ] E:\xamp\htdocs\ht\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'upImg',
+    2 => '20191214',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36',
+  'accept' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-dest' => 'image',
+  'referer' => 'http://localhost/ht/public/index/shop1.html?id=113',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=5400513536; pgv_si=s5846208512; PHPSESSID=9cnt947buqlue9c8sbuesf9tgu; Hm_lvt_080836300300be57b7f34f4b3e97d911=1609233415; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1609676547; TY_SESSION_ID=e6c123d3-6b94-4e99-8d96-c0264a3fd1fb; Hm_lvt_6bcd52f51e9b3dce32bec4a3997715ac=1610283467; Hm_up_6bcd52f51e9b3dce32bec4a3997715ac=%7B%22islogin%22%3A%7B%22value%22%3A%220%22%2C%22scope%22%3A1%7D%2C%22isonline%22%3A%7B%22value%22%3A%220%22%2C%22scope%22%3A1%7D%2C%22isvip%22%3A%7B%22value%22%3A%220%22%2C%22scope%22%3A1%7D%7D; __gads=ID=528c77ea986faaea-22e644e4a5c50070:T=1610283467:RT=1610283467:S=ALNI_MZBVWR_IAnyiqtSZdRYoMCGhyEBeA; Hm_lpvt_6bcd52f51e9b3dce32bec4a3997715ac=1610283514',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-20T21:38:02+08:00 ] 0.0.0.0 GET localhost/ht/public/
+[运行时间：0.427292s] [吞吐率：2.34req/s] [内存消耗：3,116.69kb] [文件加载：56]
+[ info ] [ LANG ] E:\xamp\htdocs\ht\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36',
+  'accept' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-dest' => 'image',
+  'referer' => 'http://localhost/ht/public/index/shop1.html?id=113',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=5400513536; pgv_si=s5846208512; PHPSESSID=9cnt947buqlue9c8sbuesf9tgu; Hm_lvt_080836300300be57b7f34f4b3e97d911=1609233415; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1609676547; TY_SESSION_ID=e6c123d3-6b94-4e99-8d96-c0264a3fd1fb; Hm_lvt_6bcd52f51e9b3dce32bec4a3997715ac=1610283467; Hm_up_6bcd52f51e9b3dce32bec4a3997715ac=%7B%22islogin%22%3A%7B%22value%22%3A%220%22%2C%22scope%22%3A1%7D%2C%22isonline%22%3A%7B%22value%22%3A%220%22%2C%22scope%22%3A1%7D%2C%22isvip%22%3A%7B%22value%22%3A%220%22%2C%22scope%22%3A1%7D%7D; __gads=ID=528c77ea986faaea-22e644e4a5c50070:T=1610283467:RT=1610283467:S=ALNI_MZBVWR_IAnyiqtSZdRYoMCGhyEBeA; Hm_lpvt_6bcd52f51e9b3dce32bec4a3997715ac=1610283514',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\xamp\htdocs\ht\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\xamp\htdocs\ht\public/../application/index\view\index\index.html [ array (
+  0 => 'type',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000992s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_type` [ RunTime:0.073460s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 0 [ RunTime:0.001184s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 170 [ RunTime:0.001530s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 113 [ RunTime:0.013747s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 155 [ RunTime:0.037659s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 166 [ RunTime:0.017475s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 138 [ RunTime:0.004151s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 136 [ RunTime:0.001157s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 137 [ RunTime:0.001235s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 141 [ RunTime:0.001105s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 149 [ RunTime:0.001159s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 150 [ RunTime:0.001145s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 143 [ RunTime:0.000800s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 147 [ RunTime:0.000812s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 148 [ RunTime:0.000842s ]
+---------------------------------------------------------------
+[ 2021-01-20T21:38:03+08:00 ] 0.0.0.0 GET localhost/ht/public//upImg/20191214/1e28ac7bdf592cec17196f1c1656f1eb.jpg
+[运行时间：0.078797s] [吞吐率：12.69req/s] [内存消耗：1,656.25kb] [文件加载：44]
+[ info ] [ LANG ] E:\xamp\htdocs\ht\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'upImg',
+    2 => '20191214',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36',
+  'accept' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-dest' => 'image',
+  'referer' => 'http://localhost/ht/public/index/shop1.html?id=113',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=5400513536; pgv_si=s5846208512; PHPSESSID=9cnt947buqlue9c8sbuesf9tgu; Hm_lvt_080836300300be57b7f34f4b3e97d911=1609233415; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1609676547; TY_SESSION_ID=e6c123d3-6b94-4e99-8d96-c0264a3fd1fb; Hm_lvt_6bcd52f51e9b3dce32bec4a3997715ac=1610283467; Hm_up_6bcd52f51e9b3dce32bec4a3997715ac=%7B%22islogin%22%3A%7B%22value%22%3A%220%22%2C%22scope%22%3A1%7D%2C%22isonline%22%3A%7B%22value%22%3A%220%22%2C%22scope%22%3A1%7D%2C%22isvip%22%3A%7B%22value%22%3A%220%22%2C%22scope%22%3A1%7D%7D; __gads=ID=528c77ea986faaea-22e644e4a5c50070:T=1610283467:RT=1610283467:S=ALNI_MZBVWR_IAnyiqtSZdRYoMCGhyEBeA; Hm_lpvt_6bcd52f51e9b3dce32bec4a3997715ac=1610283514',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-20T21:38:03+08:00 ] 0.0.0.0 GET localhost/ht/public/
+[运行时间：0.236272s] [吞吐率：4.23req/s] [内存消耗：3,116.69kb] [文件加载：56]
+[ info ] [ LANG ] E:\xamp\htdocs\ht\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36',
+  'accept' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-dest' => 'image',
+  'referer' => 'http://localhost/ht/public/index/shop1.html?id=113',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=5400513536; pgv_si=s5846208512; PHPSESSID=9cnt947buqlue9c8sbuesf9tgu; Hm_lvt_080836300300be57b7f34f4b3e97d911=1609233415; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1609676547; TY_SESSION_ID=e6c123d3-6b94-4e99-8d96-c0264a3fd1fb; Hm_lvt_6bcd52f51e9b3dce32bec4a3997715ac=1610283467; Hm_up_6bcd52f51e9b3dce32bec4a3997715ac=%7B%22islogin%22%3A%7B%22value%22%3A%220%22%2C%22scope%22%3A1%7D%2C%22isonline%22%3A%7B%22value%22%3A%220%22%2C%22scope%22%3A1%7D%2C%22isvip%22%3A%7B%22value%22%3A%220%22%2C%22scope%22%3A1%7D%7D; __gads=ID=528c77ea986faaea-22e644e4a5c50070:T=1610283467:RT=1610283467:S=ALNI_MZBVWR_IAnyiqtSZdRYoMCGhyEBeA; Hm_lpvt_6bcd52f51e9b3dce32bec4a3997715ac=1610283514',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\xamp\htdocs\ht\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\xamp\htdocs\ht\public/../application/index\view\index\index.html [ array (
+  0 => 'type',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000771s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_type` [ RunTime:0.048162s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 0 [ RunTime:0.006676s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 170 [ RunTime:0.001537s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 113 [ RunTime:0.000939s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 155 [ RunTime:0.000965s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 166 [ RunTime:0.001412s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 138 [ RunTime:0.000821s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 136 [ RunTime:0.000672s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 137 [ RunTime:0.001341s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 141 [ RunTime:0.000594s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 149 [ RunTime:0.000574s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 150 [ RunTime:0.000844s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 143 [ RunTime:0.000617s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 147 [ RunTime:0.000598s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 148 [ RunTime:0.000775s ]
+---------------------------------------------------------------
+[ 2021-01-20T21:43:19+08:00 ] 0.0.0.0 GET localhost/ht/public/index/shop1.html?id=113
+[运行时间：1.070791s] [吞吐率：0.93req/s] [内存消耗：3,356.67kb] [文件加载：58]
+[ info ] [ LANG ] E:\xamp\htdocs\ht\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'shop1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'referer' => 'http://localhost/ht/public/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=5400513536; pgv_si=s5846208512; PHPSESSID=9cnt947buqlue9c8sbuesf9tgu; Hm_lvt_080836300300be57b7f34f4b3e97d911=1609233415; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1609676547; TY_SESSION_ID=e6c123d3-6b94-4e99-8d96-c0264a3fd1fb; Hm_lvt_6bcd52f51e9b3dce32bec4a3997715ac=1610283467; Hm_up_6bcd52f51e9b3dce32bec4a3997715ac=%7B%22islogin%22%3A%7B%22value%22%3A%220%22%2C%22scope%22%3A1%7D%2C%22isonline%22%3A%7B%22value%22%3A%220%22%2C%22scope%22%3A1%7D%2C%22isvip%22%3A%7B%22value%22%3A%220%22%2C%22scope%22%3A1%7D%7D; __gads=ID=528c77ea986faaea-22e644e4a5c50070:T=1610283467:RT=1610283467:S=ALNI_MZBVWR_IAnyiqtSZdRYoMCGhyEBeA; Hm_lpvt_6bcd52f51e9b3dce32bec4a3997715ac=1610283514',
+)
+[ info ] [ PARAM ] array (
+  'id' => '113',
+)
+[ info ] [ RUN ] app\index\controller\Index->shop1[ E:\xamp\htdocs\ht\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\xamp\htdocs\ht\public/../application/index\view\index\shop1.html [ array (
+  0 => 'shop',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003642s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_goods` [ RunTime:0.081239s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_goods` WHERE  `tid` = 113 [ RunTime:0.002254s ]
+---------------------------------------------------------------
+[ 2021-01-20T21:43:20+08:00 ] 0.0.0.0 GET localhost/ht/public//upImg/20191214/f930545227a131eb4160b7f47300a6be.jpg
+[运行时间：0.244906s] [吞吐率：4.08req/s] [内存消耗：1,656.25kb] [文件加载：44]
+[ info ] [ LANG ] E:\xamp\htdocs\ht\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'upImg',
+    2 => '20191214',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36',
+  'accept' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-dest' => 'image',
+  'referer' => 'http://localhost/ht/public/index/shop1.html?id=113',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=5400513536; pgv_si=s5846208512; PHPSESSID=9cnt947buqlue9c8sbuesf9tgu; Hm_lvt_080836300300be57b7f34f4b3e97d911=1609233415; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1609676547; TY_SESSION_ID=e6c123d3-6b94-4e99-8d96-c0264a3fd1fb; Hm_lvt_6bcd52f51e9b3dce32bec4a3997715ac=1610283467; Hm_up_6bcd52f51e9b3dce32bec4a3997715ac=%7B%22islogin%22%3A%7B%22value%22%3A%220%22%2C%22scope%22%3A1%7D%2C%22isonline%22%3A%7B%22value%22%3A%220%22%2C%22scope%22%3A1%7D%2C%22isvip%22%3A%7B%22value%22%3A%220%22%2C%22scope%22%3A1%7D%7D; __gads=ID=528c77ea986faaea-22e644e4a5c50070:T=1610283467:RT=1610283467:S=ALNI_MZBVWR_IAnyiqtSZdRYoMCGhyEBeA; Hm_lpvt_6bcd52f51e9b3dce32bec4a3997715ac=1610283514',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-20T21:43:20+08:00 ] 0.0.0.0 GET localhost/ht/public//upImg/20191214/45e2aee0c685adf993eb4d4cfca1e5e5.jpg
+[运行时间：0.239549s] [吞吐率：4.17req/s] [内存消耗：1,656.25kb] [文件加载：44]
+[ info ] [ LANG ] E:\xamp\htdocs\ht\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'upImg',
+    2 => '20191214',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36',
+  'accept' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-dest' => 'image',
+  'referer' => 'http://localhost/ht/public/index/shop1.html?id=113',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=5400513536; pgv_si=s5846208512; PHPSESSID=9cnt947buqlue9c8sbuesf9tgu; Hm_lvt_080836300300be57b7f34f4b3e97d911=1609233415; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1609676547; TY_SESSION_ID=e6c123d3-6b94-4e99-8d96-c0264a3fd1fb; Hm_lvt_6bcd52f51e9b3dce32bec4a3997715ac=1610283467; Hm_up_6bcd52f51e9b3dce32bec4a3997715ac=%7B%22islogin%22%3A%7B%22value%22%3A%220%22%2C%22scope%22%3A1%7D%2C%22isonline%22%3A%7B%22value%22%3A%220%22%2C%22scope%22%3A1%7D%2C%22isvip%22%3A%7B%22value%22%3A%220%22%2C%22scope%22%3A1%7D%7D; __gads=ID=528c77ea986faaea-22e644e4a5c50070:T=1610283467:RT=1610283467:S=ALNI_MZBVWR_IAnyiqtSZdRYoMCGhyEBeA; Hm_lpvt_6bcd52f51e9b3dce32bec4a3997715ac=1610283514',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-20T21:43:20+08:00 ] 0.0.0.0 GET localhost/ht/public//upImg/20191214/1e28ac7bdf592cec17196f1c1656f1eb.jpg
+[运行时间：0.269660s] [吞吐率：3.71req/s] [内存消耗：1,656.25kb] [文件加载：44]
+[ info ] [ LANG ] E:\xamp\htdocs\ht\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'upImg',
+    2 => '20191214',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36',
+  'accept' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-dest' => 'image',
+  'referer' => 'http://localhost/ht/public/index/shop1.html?id=113',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=5400513536; pgv_si=s5846208512; PHPSESSID=9cnt947buqlue9c8sbuesf9tgu; Hm_lvt_080836300300be57b7f34f4b3e97d911=1609233415; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1609676547; TY_SESSION_ID=e6c123d3-6b94-4e99-8d96-c0264a3fd1fb; Hm_lvt_6bcd52f51e9b3dce32bec4a3997715ac=1610283467; Hm_up_6bcd52f51e9b3dce32bec4a3997715ac=%7B%22islogin%22%3A%7B%22value%22%3A%220%22%2C%22scope%22%3A1%7D%2C%22isonline%22%3A%7B%22value%22%3A%220%22%2C%22scope%22%3A1%7D%2C%22isvip%22%3A%7B%22value%22%3A%220%22%2C%22scope%22%3A1%7D%7D; __gads=ID=528c77ea986faaea-22e644e4a5c50070:T=1610283467:RT=1610283467:S=ALNI_MZBVWR_IAnyiqtSZdRYoMCGhyEBeA; Hm_lpvt_6bcd52f51e9b3dce32bec4a3997715ac=1610283514',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-20T21:43:20+08:00 ] 0.0.0.0 GET localhost/ht/public//upImg/20191214/519f0a6921ca08e41c6398a134103e90.jpg
+[运行时间：0.275032s] [吞吐率：3.64req/s] [内存消耗：1,656.25kb] [文件加载：44]
+[ info ] [ LANG ] E:\xamp\htdocs\ht\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'upImg',
+    2 => '20191214',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36',
+  'accept' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-dest' => 'image',
+  'referer' => 'http://localhost/ht/public/index/shop1.html?id=113',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=5400513536; pgv_si=s5846208512; PHPSESSID=9cnt947buqlue9c8sbuesf9tgu; Hm_lvt_080836300300be57b7f34f4b3e97d911=1609233415; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1609676547; TY_SESSION_ID=e6c123d3-6b94-4e99-8d96-c0264a3fd1fb; Hm_lvt_6bcd52f51e9b3dce32bec4a3997715ac=1610283467; Hm_up_6bcd52f51e9b3dce32bec4a3997715ac=%7B%22islogin%22%3A%7B%22value%22%3A%220%22%2C%22scope%22%3A1%7D%2C%22isonline%22%3A%7B%22value%22%3A%220%22%2C%22scope%22%3A1%7D%2C%22isvip%22%3A%7B%22value%22%3A%220%22%2C%22scope%22%3A1%7D%7D; __gads=ID=528c77ea986faaea-22e644e4a5c50070:T=1610283467:RT=1610283467:S=ALNI_MZBVWR_IAnyiqtSZdRYoMCGhyEBeA; Hm_lpvt_6bcd52f51e9b3dce32bec4a3997715ac=1610283514',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-01-20T21:43:20+08:00 ] 0.0.0.0 GET localhost/ht/public/
+[运行时间：0.408253s] [吞吐率：2.45req/s] [内存消耗：3,116.69kb] [文件加载：56]
+[ info ] [ LANG ] E:\xamp\htdocs\ht\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36',
+  'accept' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-dest' => 'image',
+  'referer' => 'http://localhost/ht/public/index/shop1.html?id=113',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=5400513536; pgv_si=s5846208512; PHPSESSID=9cnt947buqlue9c8sbuesf9tgu; Hm_lvt_080836300300be57b7f34f4b3e97d911=1609233415; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1609676547; TY_SESSION_ID=e6c123d3-6b94-4e99-8d96-c0264a3fd1fb; Hm_lvt_6bcd52f51e9b3dce32bec4a3997715ac=1610283467; Hm_up_6bcd52f51e9b3dce32bec4a3997715ac=%7B%22islogin%22%3A%7B%22value%22%3A%220%22%2C%22scope%22%3A1%7D%2C%22isonline%22%3A%7B%22value%22%3A%220%22%2C%22scope%22%3A1%7D%2C%22isvip%22%3A%7B%22value%22%3A%220%22%2C%22scope%22%3A1%7D%7D; __gads=ID=528c77ea986faaea-22e644e4a5c50070:T=1610283467:RT=1610283467:S=ALNI_MZBVWR_IAnyiqtSZdRYoMCGhyEBeA; Hm_lpvt_6bcd52f51e9b3dce32bec4a3997715ac=1610283514',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\xamp\htdocs\ht\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\xamp\htdocs\ht\public/../application/index\view\index\index.html [ array (
+  0 => 'type',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001140s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_type` [ RunTime:0.040112s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 0 [ RunTime:0.001227s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 170 [ RunTime:0.001173s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 113 [ RunTime:0.001090s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 155 [ RunTime:0.001151s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 166 [ RunTime:0.001272s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 138 [ RunTime:0.001288s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 136 [ RunTime:0.001993s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 137 [ RunTime:0.001665s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 141 [ RunTime:0.000866s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 149 [ RunTime:0.000739s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 150 [ RunTime:0.000728s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 143 [ RunTime:0.000596s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 147 [ RunTime:0.000905s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 148 [ RunTime:0.000733s ]

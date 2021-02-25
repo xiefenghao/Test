@@ -1,0 +1,90 @@
+---------------------------------------------------------------
+[ 2021-02-18T21:27:02+08:00 ] 0.0.0.0 GET localhost/ht/public/
+[运行时间：3.066743s] [吞吐率：0.33req/s] [内存消耗：3,117.32kb] [文件加载：56]
+[ info ] [ LANG ] E:\xamp\htdocs\ht\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=5400513536; pgv_si=s5846208512; PHPSESSID=9cnt947buqlue9c8sbuesf9tgu; TY_SESSION_ID=e6c123d3-6b94-4e99-8d96-c0264a3fd1fb; Hm_lvt_6bcd52f51e9b3dce32bec4a3997715ac=1610283467; Hm_up_6bcd52f51e9b3dce32bec4a3997715ac=%7B%22islogin%22%3A%7B%22value%22%3A%220%22%2C%22scope%22%3A1%7D%2C%22isonline%22%3A%7B%22value%22%3A%220%22%2C%22scope%22%3A1%7D%2C%22isvip%22%3A%7B%22value%22%3A%220%22%2C%22scope%22%3A1%7D%7D; __gads=ID=528c77ea986faaea-22e644e4a5c50070:T=1610283467:RT=1610283467:S=ALNI_MZBVWR_IAnyiqtSZdRYoMCGhyEBeA; Hm_lpvt_6bcd52f51e9b3dce32bec4a3997715ac=1610283514; Hm_lvt_080836300300be57b7f34f4b3e97d911=1609233415,1611379149; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1611670353',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\xamp\htdocs\ht\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\xamp\htdocs\ht\public/../application/index\view\index\index.html [ array (
+  0 => 'type',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.102530s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_type` [ RunTime:0.171518s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 0 [ RunTime:0.322314s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 170 [ RunTime:0.002882s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 113 [ RunTime:0.002258s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 155 [ RunTime:0.000962s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 166 [ RunTime:0.001311s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 138 [ RunTime:0.000950s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 136 [ RunTime:0.000872s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 137 [ RunTime:0.001138s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 141 [ RunTime:0.000696s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 149 [ RunTime:0.000572s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 150 [ RunTime:0.000709s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 143 [ RunTime:0.000723s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 147 [ RunTime:0.000707s ]
+[ sql ] [ SQL ] SELECT * FROM `shop_type` WHERE  `pid` = 148 [ RunTime:0.000597s ]
+---------------------------------------------------------------
+[ 2021-02-18T21:27:03+08:00 ] 0.0.0.0 GET localhost/ht/public/static/bst/dist/img/arrow.png
+[运行时间：0.508594s] [吞吐率：1.97req/s] [内存消耗：1,656.80kb] [文件加载：44]
+[ info ] [ LANG ] E:\xamp\htdocs\ht\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'index'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'static',
+    2 => 'bst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-dest' => 'image',
+  'referer' => 'http://localhost/ht/public/static/bst/dist/css/home.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=5400513536; pgv_si=s5846208512; PHPSESSID=9cnt947buqlue9c8sbuesf9tgu; TY_SESSION_ID=e6c123d3-6b94-4e99-8d96-c0264a3fd1fb; Hm_lvt_6bcd52f51e9b3dce32bec4a3997715ac=1610283467; Hm_up_6bcd52f51e9b3dce32bec4a3997715ac=%7B%22islogin%22%3A%7B%22value%22%3A%220%22%2C%22scope%22%3A1%7D%2C%22isonline%22%3A%7B%22value%22%3A%220%22%2C%22scope%22%3A1%7D%2C%22isvip%22%3A%7B%22value%22%3A%220%22%2C%22scope%22%3A1%7D%7D; __gads=ID=528c77ea986faaea-22e644e4a5c50070:T=1610283467:RT=1610283467:S=ALNI_MZBVWR_IAnyiqtSZdRYoMCGhyEBeA; Hm_lpvt_6bcd52f51e9b3dce32bec4a3997715ac=1610283514; Hm_lvt_080836300300be57b7f34f4b3e97d911=1609233415,1611379149; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1611670353',
+)
+[ info ] [ PARAM ] array (
+  'dist' => 'img',
+)
+[ info ] [ LOG ] INIT File

@@ -1,0 +1,39 @@
+---------------------------------------------------------------
+[ 2021-01-01T22:47:04+08:00 ] 0.0.0.0 GET localhost/ht/public/admin.php/index/productadd.html
+[运行时间：43.138504s] [吞吐率：0.02req/s] [内存消耗：3,246.41kb] [文件加载：58]
+[ info ] [ LANG ] E:\xamp\htdocs\ht\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'productadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=5400513536; pgv_si=s5846208512; PHPSESSID=9cnt947buqlue9c8sbuesf9tgu; Hm_lvt_080836300300be57b7f34f4b3e97d911=1609233415; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1609236056',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->productadd[ E:\xamp\htdocs\ht\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\xamp\htdocs\ht\public/../application/admin\view\index\productadd.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000885s ] mysql:host=127.0.0.1;port=3306;dbname=shop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `shop_type` [ RunTime:0.639173s ]
+[ sql ] [ SQL ] SELECT *,concat(path,',',id) as paths FROM `shop_type` ORDER BY `paths` [ RunTime:0.124968s ]
