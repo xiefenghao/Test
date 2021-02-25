@@ -8,3 +8,4 @@
 添加商品http://localhost/ht/public/admin.php/index/productadd.html
 数据库shop
 
+# text
